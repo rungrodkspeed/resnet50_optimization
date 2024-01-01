@@ -1,0 +1,8 @@
+__pycache__
+
+/flower_dataset
+
+*.onnx
+*.pth
+*.plan
+
