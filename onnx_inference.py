@@ -5,7 +5,7 @@ import onnxruntime as ort
 
 
 from utils import get_path, classes, EPSILON
-from ImageProcessor.ImageProcessor import ImageProcessor
+from ImageProcessor import ImageProcessor
 
 
 def load_model(args):

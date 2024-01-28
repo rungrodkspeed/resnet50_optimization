@@ -1,2 +1,2 @@
-from test.generator import TestGenerator
-from test.utils import confusion_matrix
+from .generator import TestGenerator
+from .utils import confusion_matrix

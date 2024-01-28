@@ -5,9 +5,8 @@ import pandas as pd
 
 from torchvision import transforms
 from torch.utils.data import DataLoader
-from test.generator import TestGenerator
-from test.utils import confusion_matrix
-from models.resnet50 import resnet50
+from test import TestGenerator, confusion_matrix
+from models import resnet50
 
 
 data_transforms = transforms.Compose([

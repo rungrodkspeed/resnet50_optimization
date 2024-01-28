@@ -1,1 +1,1 @@
-from models.resnet50 import resnet50
+from .resnet50 import resnet50

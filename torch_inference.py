@@ -5,7 +5,7 @@ import argparse
 from PIL import Image
 from utils import classes
 from torchvision import transforms
-from models.resnet50 import resnet50
+from models import resnet50
 
 data_transforms = transforms.Compose([
     transforms.Resize(256),

@@ -1,7 +1,7 @@
 import numpy as np
 import tritonclient.http as httpclient
 
-triton_client = httpclient.InferenceServerClient(url='localhost:8000', verbose=True, network_timeout=60.0)
+triton_client = httpclient.InferenceServerClient(url='localhost:8000', network_timeout=60.0)
 
 def test_infer(model_name, data):
     
@@ -23,8 +23,11 @@ def test_infer(model_name, data):
 
 if __name__ == '__main__':
     
-    data = np.random.rand(8, 3, 224, 224).astype(np.float32)
+    data = np.random.rand(128, 3, 224, 224).astype(np.float32)
     
     res = test_infer('resnet50', data)
     
-    print(res)
+    temp = res.as_numpy('output')
+    
+    print(temp.shape)
+    print(temp)

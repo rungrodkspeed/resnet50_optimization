@@ -1,1 +1,1 @@
-from ImageProcessor.ImageProcessor import ImageProcessor, ImageProcessorDevice
+from .ImageProcessor import ImageProcessor, ImageProcessorDevice

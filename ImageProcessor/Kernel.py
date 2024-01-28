@@ -1,7 +1,7 @@
 kernel_code = """
 __global__ void resize(float *output, const float *input,
-                                const int channels, const int width, const int height,
-                                const int new_width, const int new_height) {
+                        const int channels, const int width, const int height,
+                        const int new_width, const int new_height) {
     int x = blockIdx.x * blockDim.x + threadIdx.x;
     int y = blockIdx.y * blockDim.y + threadIdx.y;
 

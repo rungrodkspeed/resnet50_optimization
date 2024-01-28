@@ -8,9 +8,10 @@ import numpy as np
 import concurrent.futures
 import pycuda.driver as cuda
 
+from .Kernel import kernel_code
+
 from PIL import Image
 from pycuda.compiler import SourceModule
-from ImageProcessor.Kernel import kernel_code
 
 class ImageProcessor:
     

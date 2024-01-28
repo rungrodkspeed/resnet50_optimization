@@ -8,7 +8,7 @@ import pycuda.driver as cuda
 import pycuda.autoinit
 
 from utils import get_path, classes, EPSILON, dtype_np
-from ImageProcessor.ImageProcessor import ImageProcessor
+from ImageProcessor import ImageProcessor
 
 
 def load_engine(path):

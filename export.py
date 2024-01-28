@@ -1,7 +1,6 @@
 import argparse
 
-from converter.onnx2trt import convert_to_trt
-from converter.torch2onnx import convert_to_onnx
+from converter import convert_to_trt, convert_to_onnx
     
 if __name__ == '__main__':
     

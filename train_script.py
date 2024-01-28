@@ -2,7 +2,7 @@ import os
 
 from torchvision import transforms
 
-from train.trainer import Trainer
+from train import Trainer
 
 data_dir = './flower_dataset'
 train_dir = os.path.join(data_dir, 'train')
