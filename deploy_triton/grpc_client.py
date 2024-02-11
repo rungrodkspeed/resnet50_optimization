@@ -1,3 +1,5 @@
+import time
+
 import numpy as np
 import tritonclient.grpc as grpcclient
 
@@ -22,8 +24,14 @@ def test_infer(model_name, data):
 
 if __name__ == '__main__':
     
-    data = np.random.rand(8, 3, 224, 224).astype(np.float32)
+    batch_size = 128
+    
+    data = np.random.rand(batch_size, 3, 224, 224).astype(np.float32)
+
+    start_time = time.time()
 
     res = test_infer('resnet50', data)
 
-    print(res)
+    inference_time = time.time() - start_time
+
+    print(1 / inference_time * batch_size)

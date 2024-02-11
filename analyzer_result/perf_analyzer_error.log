@@ -1,0 +1,2128 @@
+Command: 
+perf_analyzer -m resnet50_config_15 -b 1 -u localhost:8001 -i grpc -f resnet50_config_15-results.csv --verbose-csv --concurrency-range 1024 --measurement-mode count_windows --collect-metrics --metrics-url http://localhost:8002/metrics --metrics-interval 1000.0
+
+Error: 
+*** Measurement Settings ***
+  Batch size: 1
+  Service Kind: Triton
+  Using "count_windows" mode for stabilization
+  Minimum number of samples in each window: 50
+  Using synchronous calls for inference
+  Stabilizing using average latency
+
+Request concurrency: 1024
+failed to connect to all addresses; last error: UNKNOWN: Failed to connect to remote host: Connection refused
+Thread [0] had error: Socket closed
+
+Thread [1] had error: Socket closed
+
+Thread [2] had error: Socket closed
+
+Thread [3] had error: Socket closed
+
+Thread [4] had error: Socket closed
+
+Thread [5] had error: Socket closed
+
+Thread [6] had error: Socket closed
+
+Thread [7] had error: Connection reset by peer
+
+Thread [8] had error: Connection reset by peer
+
+Thread [9] had error: Connection reset by peer
+
+Thread [10] had error: Connection reset by peer
+
+Thread [11] had error: Connection reset by peer
+
+Thread [12] had error: Connection reset by peer
+
+Thread [13] had error: Socket closed
+
+Thread [14] had error: Connection reset by peer
+
+Thread [15] had error: Socket closed
+
+Thread [16] had error: Connection reset by peer
+
+Thread [17] had error: Connection reset by peer
+
+Thread [18] had error: Connection reset by peer
+
+Thread [19] had error: Connection reset by peer
+
+Thread [20] had error: Connection reset by peer
+
+Thread [21] had error: Connection reset by peer
+
+Thread [22] had error: Connection reset by peer
+
+Thread [23] had error: Connection reset by peer
+
+Thread [24] had error: Connection reset by peer
+
+Thread [25] had error: Connection reset by peer
+
+Thread [26] had error: Connection reset by peer
+
+Thread [27] had error: Connection reset by peer
+
+Thread [28] had error: Connection reset by peer
+
+Thread [29] had error: Connection reset by peer
+
+Thread [30] had error: Socket closed
+
+Thread [31] had error: Socket closed
+
+Thread [32] had error: Connection reset by peer
+
+Thread [33] had error: Socket closed
+
+Thread [34] had error: Socket closed
+
+Thread [35] had error: Connection reset by peer
+
+Thread [36] had error: Connection reset by peer
+
+Thread [37] had error: Connection reset by peer
+
+Thread [38] had error: Socket closed
+
+Thread [39] had error: Connection reset by peer
+
+Thread [40] had error: Connection reset by peer
+
+Thread [41] had error: Socket closed
+
+Thread [42] had error: Connection reset by peer
+
+Thread [43] had error: Connection reset by peer
+
+Thread [44] had error: Connection reset by peer
+
+Thread [45] had error: Connection reset by peer
+
+Thread [46] had error: Socket closed
+
+Thread [47] had error: Socket closed
+
+Thread [48] had error: Connection reset by peer
+
+Thread [49] had error: Socket closed
+
+Thread [50] had error: Socket closed
+
+Thread [51] had error: Socket closed
+
+Thread [52] had error: Socket closed
+
+Thread [53] had error: Socket closed
+
+Thread [54] had error: Socket closed
+
+Thread [55] had error: Socket closed
+
+Thread [56] had error: Socket closed
+
+Thread [57] had error: Socket closed
+
+Thread [58] had error: Socket closed
+
+Thread [59] had error: Socket closed
+
+Thread [60] had error: Connection reset by peer
+
+Thread [61] had error: Connection reset by peer
+
+Thread [62] had error: Socket closed
+
+Thread [63] had error: Socket closed
+
+Thread [64] had error: Socket closed
+
+Thread [65] had error: Connection reset by peer
+
+Thread [66] had error: Connection reset by peer
+
+Thread [67] had error: Connection reset by peer
+
+Thread [68] had error: Socket closed
+
+Thread [69] had error: Socket closed
+
+Thread [70] had error: Connection reset by peer
+
+Thread [71] had error: Connection reset by peer
+
+Thread [72] had error: Socket closed
+
+Thread [73] had error: Connection reset by peer
+
+Thread [74] had error: Socket closed
+
+Thread [75] had error: Connection reset by peer
+
+Thread [76] had error: Socket closed
+
+Thread [77] had error: Connection reset by peer
+
+Thread [78] had error: Connection reset by peer
+
+Thread [79] had error: Connection reset by peer
+
+Thread [80] had error: Connection reset by peer
+
+Thread [81] had error: Socket closed
+
+Thread [82] had error: Connection reset by peer
+
+Thread [83] had error: Connection reset by peer
+
+Thread [84] had error: Connection reset by peer
+
+Thread [85] had error: Connection reset by peer
+
+Thread [86] had error: Connection reset by peer
+
+Thread [87] had error: Connection reset by peer
+
+Thread [88] had error: Socket closed
+
+Thread [89] had error: Socket closed
+
+Thread [90] had error: Socket closed
+
+Thread [91] had error: Socket closed
+
+Thread [92] had error: Socket closed
+
+Thread [93] had error: Socket closed
+
+Thread [94] had error: Socket closed
+
+Thread [95] had error: Socket closed
+
+Thread [96] had error: Socket closed
+
+Thread [97] had error: Socket closed
+
+Thread [98] had error: Socket closed
+
+Thread [99] had error: Socket closed
+
+Thread [100] had error: Connection reset by peer
+
+Thread [101] had error: Connection reset by peer
+
+Thread [102] had error: Socket closed
+
+Thread [103] had error: Socket closed
+
+Thread [104] had error: Socket closed
+
+Thread [105] had error: Socket closed
+
+Thread [106] had error: Socket closed
+
+Thread [107] had error: Socket closed
+
+Thread [108] had error: Socket closed
+
+Thread [109] had error: Socket closed
+
+Thread [110] had error: Socket closed
+
+Thread [111] had error: Socket closed
+
+Thread [112] had error: Socket closed
+
+Thread [113] had error: Socket closed
+
+Thread [114] had error: Socket closed
+
+Thread [115] had error: Socket closed
+
+Thread [116] had error: Socket closed
+
+Thread [117] had error: Socket closed
+
+Thread [118] had error: Socket closed
+
+Thread [119] had error: Socket closed
+
+Thread [120] had error: Connection reset by peer
+
+Thread [121] had error: Socket closed
+
+Thread [122] had error: Socket closed
+
+Thread [123] had error: Socket closed
+
+Thread [124] had error: Socket closed
+
+Thread [125] had error: Socket closed
+
+Thread [126] had error: Connection reset by peer
+
+Thread [127] had error: Socket closed
+
+Thread [128] had error: Socket closed
+
+Thread [129] had error: Connection reset by peer
+
+Thread [130] had error: Socket closed
+
+Thread [131] had error: Socket closed
+
+Thread [132] had error: Socket closed
+
+Thread [133] had error: Socket closed
+
+Thread [134] had error: Socket closed
+
+Thread [135] had error: Socket closed
+
+Thread [136] had error: Socket closed
+
+Thread [137] had error: Socket closed
+
+Thread [138] had error: Socket closed
+
+Thread [139] had error: Socket closed
+
+Thread [140] had error: Socket closed
+
+Thread [141] had error: Socket closed
+
+Thread [142] had error: Socket closed
+
+Thread [143] had error: Socket closed
+
+Thread [144] had error: Socket closed
+
+Thread [145] had error: Socket closed
+
+Thread [146] had error: Connection reset by peer
+
+Thread [147] had error: Socket closed
+
+Thread [148] had error: Socket closed
+
+Thread [149] had error: Socket closed
+
+Thread [150] had error: Socket closed
+
+Thread [151] had error: Socket closed
+
+Thread [152] had error: Socket closed
+
+Thread [153] had error: Socket closed
+
+Thread [154] had error: Socket closed
+
+Thread [155] had error: Socket closed
+
+Thread [156] had error: Socket closed
+
+Thread [157] had error: Connection reset by peer
+
+Thread [158] had error: Socket closed
+
+Thread [159] had error: Socket closed
+
+Thread [160] had error: Socket closed
+
+Thread [161] had error: Socket closed
+
+Thread [162] had error: Socket closed
+
+Thread [163] had error: Socket closed
+
+Thread [164] had error: Socket closed
+
+Thread [165] had error: Socket closed
+
+Thread [166] had error: Socket closed
+
+Thread [167] had error: Connection reset by peer
+
+Thread [168] had error: Socket closed
+
+Thread [169] had error: Connection reset by peer
+
+Thread [170] had error: Socket closed
+
+Thread [171] had error: Connection reset by peer
+
+Thread [172] had error: Socket closed
+
+Thread [173] had error: Socket closed
+
+Thread [174] had error: Socket closed
+
+Thread [175] had error: Socket closed
+
+Thread [176] had error: Socket closed
+
+Thread [177] had error: Socket closed
+
+Thread [178] had error: Connection reset by peer
+
+Thread [179] had error: Socket closed
+
+Thread [180] had error: Socket closed
+
+Thread [181] had error: Socket closed
+
+Thread [182] had error: Socket closed
+
+Thread [183] had error: Connection reset by peer
+
+Thread [184] had error: Connection reset by peer
+
+Thread [185] had error: Socket closed
+
+Thread [186] had error: Socket closed
+
+Thread [187] had error: Connection reset by peer
+
+Thread [188] had error: Connection reset by peer
+
+Thread [189] had error: Socket closed
+
+Thread [190] had error: Socket closed
+
+Thread [191] had error: Connection reset by peer
+
+Thread [192] had error: Connection reset by peer
+
+Thread [193] had error: Connection reset by peer
+
+Thread [194] had error: Connection reset by peer
+
+Thread [195] had error: Socket closed
+
+Thread [196] had error: Socket closed
+
+Thread [197] had error: Socket closed
+
+Thread [198] had error: Socket closed
+
+Thread [199] had error: Socket closed
+
+Thread [200] had error: Socket closed
+
+Thread [201] had error: Socket closed
+
+Thread [202] had error: Socket closed
+
+Thread [203] had error: Socket closed
+
+Thread [204] had error: Socket closed
+
+Thread [205] had error: Socket closed
+
+Thread [206] had error: Socket closed
+
+Thread [207] had error: Connection reset by peer
+
+Thread [208] had error: Socket closed
+
+Thread [209] had error: Socket closed
+
+Thread [210] had error: Socket closed
+
+Thread [211] had error: Socket closed
+
+Thread [212] had error: Socket closed
+
+Thread [213] had error: Socket closed
+
+Thread [214] had error: Socket closed
+
+Thread [215] had error: Socket closed
+
+Thread [216] had error: Socket closed
+
+Thread [217] had error: Socket closed
+
+Thread [218] had error: Connection reset by peer
+
+Thread [219] had error: Socket closed
+
+Thread [220] had error: Socket closed
+
+Thread [221] had error: Connection reset by peer
+
+Thread [222] had error: Connection reset by peer
+
+Thread [223] had error: Socket closed
+
+Thread [224] had error: Socket closed
+
+Thread [225] had error: Socket closed
+
+Thread [226] had error: Socket closed
+
+Thread [227] had error: Connection reset by peer
+
+Thread [228] had error: Connection reset by peer
+
+Thread [229] had error: Connection reset by peer
+
+Thread [230] had error: Socket closed
+
+Thread [231] had error: Socket closed
+
+Thread [232] had error: Socket closed
+
+Thread [233] had error: Socket closed
+
+Thread [234] had error: Socket closed
+
+Thread [235] had error: Connection reset by peer
+
+Thread [236] had error: Connection reset by peer
+
+Thread [237] had error: Socket closed
+
+Thread [238] had error: Socket closed
+
+Thread [239] had error: Connection reset by peer
+
+Thread [240] had error: Connection reset by peer
+
+Thread [241] had error: Socket closed
+
+Thread [242] had error: Socket closed
+
+Thread [243] had error: Socket closed
+
+Thread [244] had error: Socket closed
+
+Thread [245] had error: Socket closed
+
+Thread [246] had error: Socket closed
+
+Thread [247] had error: Socket closed
+
+Thread [248] had error: Socket closed
+
+Thread [249] had error: Socket closed
+
+Thread [250] had error: Socket closed
+
+Thread [251] had error: Socket closed
+
+Thread [252] had error: Connection reset by peer
+
+Thread [253] had error: Connection reset by peer
+
+Thread [254] had error: Socket closed
+
+Thread [255] had error: Socket closed
+
+Thread [256] had error: Socket closed
+
+Thread [257] had error: Socket closed
+
+Thread [258] had error: Socket closed
+
+Thread [259] had error: Socket closed
+
+Thread [260] had error: Socket closed
+
+Thread [261] had error: Socket closed
+
+Thread [262] had error: Socket closed
+
+Thread [263] had error: Socket closed
+
+Thread [264] had error: Socket closed
+
+Thread [265] had error: Connection reset by peer
+
+Thread [266] had error: Socket closed
+
+Thread [267] had error: Connection reset by peer
+
+Thread [268] had error: Connection reset by peer
+
+Thread [269] had error: Socket closed
+
+Thread [270] had error: Connection reset by peer
+
+Thread [271] had error: Socket closed
+
+Thread [272] had error: Socket closed
+
+Thread [273] had error: Connection reset by peer
+
+Thread [274] had error: Connection reset by peer
+
+Thread [275] had error: Socket closed
+
+Thread [276] had error: Connection reset by peer
+
+Thread [277] had error: Socket closed
+
+Thread [278] had error: Connection reset by peer
+
+Thread [279] had error: Connection reset by peer
+
+Thread [280] had error: Connection reset by peer
+
+Thread [281] had error: Connection reset by peer
+
+Thread [282] had error: Connection reset by peer
+
+Thread [283] had error: Connection reset by peer
+
+Thread [284] had error: Connection reset by peer
+
+Thread [285] had error: Connection reset by peer
+
+Thread [286] had error: Connection reset by peer
+
+Thread [287] had error: Socket closed
+
+Thread [288] had error: Socket closed
+
+Thread [289] had error: Connection reset by peer
+
+Thread [290] had error: Socket closed
+
+Thread [291] had error: Socket closed
+
+Thread [292] had error: Socket closed
+
+Thread [293] had error: Connection reset by peer
+
+Thread [294] had error: Connection reset by peer
+
+Thread [295] had error: Socket closed
+
+Thread [296] had error: Connection reset by peer
+
+Thread [297] had error: Socket closed
+
+Thread [298] had error: Socket closed
+
+Thread [299] had error: Connection reset by peer
+
+Thread [300] had error: Socket closed
+
+Thread [301] had error: Socket closed
+
+Thread [302] had error: Socket closed
+
+Thread [303] had error: Socket closed
+
+Thread [304] had error: Socket closed
+
+Thread [305] had error: Socket closed
+
+Thread [306] had error: Socket closed
+
+Thread [307] had error: Connection reset by peer
+
+Thread [308] had error: Connection reset by peer
+
+Thread [309] had error: Connection reset by peer
+
+Thread [310] had error: Connection reset by peer
+
+Thread [311] had error: Socket closed
+
+Thread [312] had error: Socket closed
+
+Thread [313] had error: Socket closed
+
+Thread [314] had error: Socket closed
+
+Thread [315] had error: Socket closed
+
+Thread [316] had error: Socket closed
+
+Thread [317] had error: Socket closed
+
+Thread [318] had error: Socket closed
+
+Thread [319] had error: Socket closed
+
+Thread [320] had error: Socket closed
+
+Thread [321] had error: Socket closed
+
+Thread [322] had error: Socket closed
+
+Thread [323] had error: Socket closed
+
+Thread [324] had error: Socket closed
+
+Thread [325] had error: Socket closed
+
+Thread [326] had error: Socket closed
+
+Thread [327] had error: Socket closed
+
+Thread [328] had error: Socket closed
+
+Thread [329] had error: Socket closed
+
+Thread [330] had error: Connection reset by peer
+
+Thread [331] had error: Socket closed
+
+Thread [332] had error: Connection reset by peer
+
+Thread [333] had error: Socket closed
+
+Thread [334] had error: Connection reset by peer
+
+Thread [335] had error: Connection reset by peer
+
+Thread [336] had error: Socket closed
+
+Thread [337] had error: Connection reset by peer
+
+Thread [338] had error: Socket closed
+
+Thread [339] had error: Socket closed
+
+Thread [340] had error: Connection reset by peer
+
+Thread [341] had error: Connection reset by peer
+
+Thread [342] had error: Socket closed
+
+Thread [343] had error: Socket closed
+
+Thread [344] had error: Socket closed
+
+Thread [345] had error: Connection reset by peer
+
+Thread [346] had error: Socket closed
+
+Thread [347] had error: Connection reset by peer
+
+Thread [348] had error: Connection reset by peer
+
+Thread [349] had error: Connection reset by peer
+
+Thread [350] had error: Socket closed
+
+Thread [351] had error: Socket closed
+
+Thread [352] had error: Socket closed
+
+Thread [353] had error: Socket closed
+
+Thread [354] had error: Socket closed
+
+Thread [355] had error: Connection reset by peer
+
+Thread [356] had error: Socket closed
+
+Thread [357] had error: Socket closed
+
+Thread [358] had error: Connection reset by peer
+
+Thread [359] had error: Connection reset by peer
+
+Thread [360] had error: Socket closed
+
+Thread [361] had error: Connection reset by peer
+
+Thread [362] had error: Socket closed
+
+Thread [363] had error: Connection reset by peer
+
+Thread [364] had error: Connection reset by peer
+
+Thread [365] had error: Socket closed
+
+Thread [366] had error: Connection reset by peer
+
+Thread [367] had error: Socket closed
+
+Thread [368] had error: Connection reset by peer
+
+Thread [369] had error: Socket closed
+
+Thread [370] had error: Socket closed
+
+Thread [371] had error: Socket closed
+
+Thread [372] had error: Socket closed
+
+Thread [373] had error: Socket closed
+
+Thread [374] had error: Socket closed
+
+Thread [375] had error: Socket closed
+
+Thread [376] had error: Socket closed
+
+Thread [377] had error: Socket closed
+
+Thread [378] had error: Socket closed
+
+Thread [379] had error: Socket closed
+
+Thread [380] had error: Socket closed
+
+Thread [381] had error: Socket closed
+
+Thread [382] had error: Socket closed
+
+Thread [383] had error: Connection reset by peer
+
+Thread [384] had error: Socket closed
+
+Thread [385] had error: Connection reset by peer
+
+Thread [386] had error: Connection reset by peer
+
+Thread [387] had error: Connection reset by peer
+
+Thread [388] had error: Connection reset by peer
+
+Thread [389] had error: Socket closed
+
+Thread [390] had error: Connection reset by peer
+
+Thread [391] had error: Connection reset by peer
+
+Thread [392] had error: Connection reset by peer
+
+Thread [393] had error: Socket closed
+
+Thread [394] had error: Connection reset by peer
+
+Thread [395] had error: Connection reset by peer
+
+Thread [396] had error: Socket closed
+
+Thread [397] had error: Connection reset by peer
+
+Thread [398] had error: Connection reset by peer
+
+Thread [399] had error: Connection reset by peer
+
+Thread [400] had error: Socket closed
+
+Thread [401] had error: Connection reset by peer
+
+Thread [402] had error: Connection reset by peer
+
+Thread [403] had error: Socket closed
+
+Thread [404] had error: Connection reset by peer
+
+Thread [405] had error: Socket closed
+
+Thread [406] had error: Connection reset by peer
+
+Thread [407] had error: Connection reset by peer
+
+Thread [408] had error: Connection reset by peer
+
+Thread [409] had error: Socket closed
+
+Thread [410] had error: Socket closed
+
+Thread [411] had error: Socket closed
+
+Thread [412] had error: Socket closed
+
+Thread [413] had error: Socket closed
+
+Thread [414] had error: Socket closed
+
+Thread [415] had error: Connection reset by peer
+
+Thread [416] had error: Connection reset by peer
+
+Thread [417] had error: Socket closed
+
+Thread [418] had error: Socket closed
+
+Thread [419] had error: Socket closed
+
+Thread [420] had error: Connection reset by peer
+
+Thread [421] had error: Socket closed
+
+Thread [422] had error: Socket closed
+
+Thread [423] had error: Socket closed
+
+Thread [424] had error: Socket closed
+
+Thread [425] had error: Socket closed
+
+Thread [426] had error: Socket closed
+
+Thread [427] had error: Socket closed
+
+Thread [428] had error: Socket closed
+
+Thread [429] had error: Connection reset by peer
+
+Thread [430] had error: Connection reset by peer
+
+Thread [431] had error: Connection reset by peer
+
+Thread [432] had error: Connection reset by peer
+
+Thread [433] had error: Connection reset by peer
+
+Thread [434] had error: Socket closed
+
+Thread [435] had error: Connection reset by peer
+
+Thread [436] had error: Connection reset by peer
+
+Thread [437] had error: Connection reset by peer
+
+Thread [438] had error: Socket closed
+
+Thread [439] had error: Socket closed
+
+Thread [440] had error: Socket closed
+
+Thread [441] had error: Connection reset by peer
+
+Thread [442] had error: Connection reset by peer
+
+Thread [443] had error: Connection reset by peer
+
+Thread [444] had error: Connection reset by peer
+
+Thread [445] had error: Connection reset by peer
+
+Thread [446] had error: Socket closed
+
+Thread [447] had error: Connection reset by peer
+
+Thread [448] had error: Socket closed
+
+Thread [449] had error: Socket closed
+
+Thread [450] had error: Socket closed
+
+Thread [451] had error: Socket closed
+
+Thread [452] had error: Socket closed
+
+Thread [453] had error: Socket closed
+
+Thread [454] had error: Socket closed
+
+Thread [455] had error: Socket closed
+
+Thread [456] had error: Socket closed
+
+Thread [457] had error: Socket closed
+
+Thread [458] had error: Socket closed
+
+Thread [459] had error: Socket closed
+
+Thread [460] had error: Socket closed
+
+Thread [461] had error: Connection reset by peer
+
+Thread [462] had error: Connection reset by peer
+
+Thread [463] had error: Socket closed
+
+Thread [464] had error: Socket closed
+
+Thread [465] had error: Socket closed
+
+Thread [466] had error: Socket closed
+
+Thread [467] had error: Socket closed
+
+Thread [468] had error: Connection reset by peer
+
+Thread [469] had error: Connection reset by peer
+
+Thread [470] had error: Connection reset by peer
+
+Thread [471] had error: Socket closed
+
+Thread [472] had error: Socket closed
+
+Thread [473] had error: Connection reset by peer
+
+Thread [474] had error: Socket closed
+
+Thread [475] had error: Socket closed
+
+Thread [476] had error: Socket closed
+
+Thread [477] had error: Socket closed
+
+Thread [478] had error: Connection reset by peer
+
+Thread [479] had error: Socket closed
+
+Thread [480] had error: Connection reset by peer
+
+Thread [481] had error: Connection reset by peer
+
+Thread [482] had error: Connection reset by peer
+
+Thread [483] had error: Connection reset by peer
+
+Thread [484] had error: Socket closed
+
+Thread [485] had error: Socket closed
+
+Thread [486] had error: Socket closed
+
+Thread [487] had error: Connection reset by peer
+
+Thread [488] had error: Socket closed
+
+Thread [489] had error: Socket closed
+
+Thread [490] had error: Socket closed
+
+Thread [491] had error: Socket closed
+
+Thread [492] had error: Connection reset by peer
+
+Thread [493] had error: Socket closed
+
+Thread [494] had error: Socket closed
+
+Thread [495] had error: Connection reset by peer
+
+Thread [496] had error: Connection reset by peer
+
+Thread [497] had error: Socket closed
+
+Thread [498] had error: Connection reset by peer
+
+Thread [499] had error: Connection reset by peer
+
+Thread [500] had error: Socket closed
+
+Thread [501] had error: Socket closed
+
+Thread [502] had error: Socket closed
+
+Thread [503] had error: Connection reset by peer
+
+Thread [504] had error: Socket closed
+
+Thread [505] had error: Connection reset by peer
+
+Thread [506] had error: Connection reset by peer
+
+Thread [507] had error: Connection reset by peer
+
+Thread [508] had error: Socket closed
+
+Thread [509] had error: Socket closed
+
+Thread [510] had error: Socket closed
+
+Thread [511] had error: Connection reset by peer
+
+Thread [512] had error: Socket closed
+
+Thread [513] had error: Socket closed
+
+Thread [514] had error: Socket closed
+
+Thread [515] had error: Socket closed
+
+Thread [516] had error: Socket closed
+
+Thread [517] had error: Connection reset by peer
+
+Thread [518] had error: Connection reset by peer
+
+Thread [519] had error: Socket closed
+
+Thread [520] had error: Socket closed
+
+Thread [521] had error: Connection reset by peer
+
+Thread [522] had error: Connection reset by peer
+
+Thread [523] had error: Connection reset by peer
+
+Thread [524] had error: Socket closed
+
+Thread [525] had error: Socket closed
+
+Thread [526] had error: Socket closed
+
+Thread [527] had error: Socket closed
+
+Thread [528] had error: Connection reset by peer
+
+Thread [529] had error: Socket closed
+
+Thread [530] had error: Socket closed
+
+Thread [531] had error: Connection reset by peer
+
+Thread [532] had error: Connection reset by peer
+
+Thread [533] had error: Socket closed
+
+Thread [534] had error: Connection reset by peer
+
+Thread [535] had error: Connection reset by peer
+
+Thread [536] had error: Connection reset by peer
+
+Thread [537] had error: Connection reset by peer
+
+Thread [538] had error: Connection reset by peer
+
+Thread [539] had error: Socket closed
+
+Thread [540] had error: Socket closed
+
+Thread [541] had error: Socket closed
+
+Thread [542] had error: Socket closed
+
+Thread [543] had error: Socket closed
+
+Thread [544] had error: Connection reset by peer
+
+Thread [545] had error: Connection reset by peer
+
+Thread [546] had error: Socket closed
+
+Thread [547] had error: Connection reset by peer
+
+Thread [548] had error: Socket closed
+
+Thread [549] had error: Connection reset by peer
+
+Thread [550] had error: Connection reset by peer
+
+Thread [551] had error: Connection reset by peer
+
+Thread [552] had error: Connection reset by peer
+
+Thread [553] had error: Socket closed
+
+Thread [554] had error: Socket closed
+
+Thread [555] had error: Connection reset by peer
+
+Thread [556] had error: Socket closed
+
+Thread [557] had error: Socket closed
+
+Thread [558] had error: Connection reset by peer
+
+Thread [559] had error: Socket closed
+
+Thread [560] had error: Socket closed
+
+Thread [561] had error: Socket closed
+
+Thread [562] had error: Socket closed
+
+Thread [563] had error: Socket closed
+
+Thread [564] had error: Socket closed
+
+Thread [565] had error: Socket closed
+
+Thread [566] had error: Connection reset by peer
+
+Thread [567] had error: Socket closed
+
+Thread [568] had error: Socket closed
+
+Thread [569] had error: Socket closed
+
+Thread [570] had error: Socket closed
+
+Thread [571] had error: Socket closed
+
+Thread [572] had error: Connection reset by peer
+
+Thread [573] had error: Connection reset by peer
+
+Thread [574] had error: Connection reset by peer
+
+Thread [575] had error: Socket closed
+
+Thread [576] had error: Socket closed
+
+Thread [577] had error: Socket closed
+
+Thread [578] had error: Socket closed
+
+Thread [579] had error: Socket closed
+
+Thread [580] had error: Socket closed
+
+Thread [581] had error: Socket closed
+
+Thread [582] had error: Socket closed
+
+Thread [583] had error: Socket closed
+
+Thread [584] had error: Connection reset by peer
+
+Thread [585] had error: Connection reset by peer
+
+Thread [586] had error: Connection reset by peer
+
+Thread [587] had error: Connection reset by peer
+
+Thread [588] had error: Connection reset by peer
+
+Thread [589] had error: Connection reset by peer
+
+Thread [590] had error: Connection reset by peer
+
+Thread [591] had error: Connection reset by peer
+
+Thread [592] had error: Socket closed
+
+Thread [593] had error: Socket closed
+
+Thread [594] had error: Socket closed
+
+Thread [595] had error: Connection reset by peer
+
+Thread [596] had error: Connection reset by peer
+
+Thread [597] had error: Socket closed
+
+Thread [598] had error: Connection reset by peer
+
+Thread [599] had error: Connection reset by peer
+
+Thread [600] had error: Socket closed
+
+Thread [601] had error: Socket closed
+
+Thread [602] had error: Socket closed
+
+Thread [603] had error: Connection reset by peer
+
+Thread [604] had error: Socket closed
+
+Thread [605] had error: Connection reset by peer
+
+Thread [606] had error: Connection reset by peer
+
+Thread [607] had error: Connection reset by peer
+
+Thread [608] had error: Connection reset by peer
+
+Thread [609] had error: Connection reset by peer
+
+Thread [610] had error: Socket closed
+
+Thread [611] had error: Connection reset by peer
+
+Thread [612] had error: Connection reset by peer
+
+Thread [613] had error: Connection reset by peer
+
+Thread [614] had error: Connection reset by peer
+
+Thread [615] had error: Socket closed
+
+Thread [616] had error: Connection reset by peer
+
+Thread [617] had error: Socket closed
+
+Thread [618] had error: Socket closed
+
+Thread [619] had error: Connection reset by peer
+
+Thread [620] had error: Socket closed
+
+Thread [621] had error: Socket closed
+
+Thread [622] had error: Connection reset by peer
+
+Thread [623] had error: Socket closed
+
+Thread [624] had error: Socket closed
+
+Thread [625] had error: Socket closed
+
+Thread [626] had error: Connection reset by peer
+
+Thread [627] had error: Connection reset by peer
+
+Thread [628] had error: Connection reset by peer
+
+Thread [629] had error: Socket closed
+
+Thread [630] had error: Connection reset by peer
+
+Thread [631] had error: Connection reset by peer
+
+Thread [632] had error: Socket closed
+
+Thread [633] had error: Connection reset by peer
+
+Thread [634] had error: Socket closed
+
+Thread [635] had error: Connection reset by peer
+
+Thread [636] had error: Connection reset by peer
+
+Thread [637] had error: Connection reset by peer
+
+Thread [638] had error: Socket closed
+
+Thread [639] had error: Socket closed
+
+Thread [640] had error: Connection reset by peer
+
+Thread [641] had error: Socket closed
+
+Thread [642] had error: Socket closed
+
+Thread [643] had error: Connection reset by peer
+
+Thread [644] had error: Connection reset by peer
+
+Thread [645] had error: Socket closed
+
+Thread [646] had error: Connection reset by peer
+
+Thread [647] had error: Connection reset by peer
+
+Thread [648] had error: Connection reset by peer
+
+Thread [649] had error: Connection reset by peer
+
+Thread [650] had error: Socket closed
+
+Thread [651] had error: Socket closed
+
+Thread [652] had error: Connection reset by peer
+
+Thread [653] had error: Connection reset by peer
+
+Thread [654] had error: Socket closed
+
+Thread [655] had error: Connection reset by peer
+
+Thread [656] had error: Socket closed
+
+Thread [657] had error: Socket closed
+
+Thread [658] had error: Connection reset by peer
+
+Thread [659] had error: Connection reset by peer
+
+Thread [660] had error: Connection reset by peer
+
+Thread [661] had error: Socket closed
+
+Thread [662] had error: Socket closed
+
+Thread [663] had error: Socket closed
+
+Thread [664] had error: Connection reset by peer
+
+Thread [665] had error: Socket closed
+
+Thread [666] had error: Socket closed
+
+Thread [667] had error: Socket closed
+
+Thread [668] had error: Socket closed
+
+Thread [669] had error: Socket closed
+
+Thread [670] had error: Connection reset by peer
+
+Thread [671] had error: Socket closed
+
+Thread [672] had error: Connection reset by peer
+
+Thread [673] had error: Connection reset by peer
+
+Thread [674] had error: Socket closed
+
+Thread [675] had error: Connection reset by peer
+
+Thread [676] had error: Socket closed
+
+Thread [677] had error: Connection reset by peer
+
+Thread [678] had error: Connection reset by peer
+
+Thread [679] had error: Socket closed
+
+Thread [680] had error: Connection reset by peer
+
+Thread [681] had error: Connection reset by peer
+
+Thread [682] had error: Socket closed
+
+Thread [683] had error: Socket closed
+
+Thread [684] had error: Connection reset by peer
+
+Thread [685] had error: Connection reset by peer
+
+Thread [686] had error: Connection reset by peer
+
+Thread [687] had error: Socket closed
+
+Thread [688] had error: Socket closed
+
+Thread [689] had error: Connection reset by peer
+
+Thread [690] had error: Socket closed
+
+Thread [691] had error: Socket closed
+
+Thread [692] had error: Connection reset by peer
+
+Thread [693] had error: Connection reset by peer
+
+Thread [694] had error: Connection reset by peer
+
+Thread [695] had error: Connection reset by peer
+
+Thread [696] had error: Connection reset by peer
+
+Thread [697] had error: Connection reset by peer
+
+Thread [698] had error: Connection reset by peer
+
+Thread [699] had error: Socket closed
+
+Thread [700] had error: Socket closed
+
+Thread [701] had error: Connection reset by peer
+
+Thread [702] had error: Socket closed
+
+Thread [703] had error: Socket closed
+
+Thread [704] had error: Socket closed
+
+Thread [705] had error: Connection reset by peer
+
+Thread [706] had error: Socket closed
+
+Thread [707] had error: Socket closed
+
+Thread [708] had error: Socket closed
+
+Thread [709] had error: Socket closed
+
+Thread [710] had error: Connection reset by peer
+
+Thread [711] had error: Socket closed
+
+Thread [712] had error: Socket closed
+
+Thread [713] had error: Socket closed
+
+Thread [714] had error: Connection reset by peer
+
+Thread [715] had error: Socket closed
+
+Thread [716] had error: Socket closed
+
+Thread [717] had error: Socket closed
+
+Thread [718] had error: Socket closed
+
+Thread [719] had error: Socket closed
+
+Thread [720] had error: Connection reset by peer
+
+Thread [721] had error: Socket closed
+
+Thread [722] had error: Socket closed
+
+Thread [723] had error: Connection reset by peer
+
+Thread [724] had error: Socket closed
+
+Thread [725] had error: Socket closed
+
+Thread [726] had error: Connection reset by peer
+
+Thread [727] had error: Connection reset by peer
+
+Thread [728] had error: Connection reset by peer
+
+Thread [729] had error: Connection reset by peer
+
+Thread [730] had error: Connection reset by peer
+
+Thread [731] had error: Socket closed
+
+Thread [732] had error: Socket closed
+
+Thread [733] had error: Connection reset by peer
+
+Thread [734] had error: Socket closed
+
+Thread [735] had error: Connection reset by peer
+
+Thread [736] had error: Socket closed
+
+Thread [737] had error: Socket closed
+
+Thread [738] had error: Connection reset by peer
+
+Thread [739] had error: Socket closed
+
+Thread [740] had error: Socket closed
+
+Thread [741] had error: Connection reset by peer
+
+Thread [742] had error: Socket closed
+
+Thread [743] had error: Socket closed
+
+Thread [744] had error: Connection reset by peer
+
+Thread [745] had error: Socket closed
+
+Thread [746] had error: Socket closed
+
+Thread [747] had error: Connection reset by peer
+
+Thread [748] had error: Socket closed
+
+Thread [749] had error: Socket closed
+
+Thread [750] had error: Socket closed
+
+Thread [751] had error: Socket closed
+
+Thread [752] had error: Connection reset by peer
+
+Thread [753] had error: Socket closed
+
+Thread [754] had error: Socket closed
+
+Thread [755] had error: Socket closed
+
+Thread [756] had error: Connection reset by peer
+
+Thread [757] had error: Connection reset by peer
+
+Thread [758] had error: Connection reset by peer
+
+Thread [759] had error: Socket closed
+
+Thread [760] had error: Connection reset by peer
+
+Thread [761] had error: Connection reset by peer
+
+Thread [762] had error: Socket closed
+
+Thread [763] had error: Socket closed
+
+Thread [764] had error: Socket closed
+
+Thread [765] had error: Socket closed
+
+Thread [766] had error: Socket closed
+
+Thread [767] had error: Connection reset by peer
+
+Thread [768] had error: Connection reset by peer
+
+Thread [769] had error: Connection reset by peer
+
+Thread [770] had error: Connection reset by peer
+
+Thread [771] had error: Connection reset by peer
+
+Thread [772] had error: Socket closed
+
+Thread [773] had error: Connection reset by peer
+
+Thread [774] had error: Socket closed
+
+Thread [775] had error: Socket closed
+
+Thread [776] had error: Socket closed
+
+Thread [777] had error: Socket closed
+
+Thread [778] had error: Socket closed
+
+Thread [779] had error: Connection reset by peer
+
+Thread [780] had error: Connection reset by peer
+
+Thread [781] had error: Connection reset by peer
+
+Thread [782] had error: Connection reset by peer
+
+Thread [783] had error: Socket closed
+
+Thread [784] had error: Socket closed
+
+Thread [785] had error: Connection reset by peer
+
+Thread [786] had error: Connection reset by peer
+
+Thread [787] had error: Connection reset by peer
+
+Thread [788] had error: Socket closed
+
+Thread [789] had error: Socket closed
+
+Thread [790] had error: Socket closed
+
+Thread [791] had error: Socket closed
+
+Thread [792] had error: Connection reset by peer
+
+Thread [793] had error: Socket closed
+
+Thread [794] had error: Socket closed
+
+Thread [795] had error: Connection reset by peer
+
+Thread [796] had error: Socket closed
+
+Thread [797] had error: Connection reset by peer
+
+Thread [798] had error: Socket closed
+
+Thread [799] had error: Connection reset by peer
+
+Thread [800] had error: Connection reset by peer
+
+Thread [801] had error: Connection reset by peer
+
+Thread [802] had error: Connection reset by peer
+
+Thread [803] had error: Socket closed
+
+Thread [804] had error: Socket closed
+
+Thread [805] had error: Connection reset by peer
+
+Thread [806] had error: Socket closed
+
+Thread [807] had error: Connection reset by peer
+
+Thread [808] had error: Connection reset by peer
+
+Thread [809] had error: Connection reset by peer
+
+Thread [810] had error: Connection reset by peer
+
+Thread [811] had error: Connection reset by peer
+
+Thread [812] had error: Connection reset by peer
+
+Thread [813] had error: Connection reset by peer
+
+Thread [814] had error: Connection reset by peer
+
+Thread [815] had error: Socket closed
+
+Thread [816] had error: Socket closed
+
+Thread [817] had error: Socket closed
+
+Thread [818] had error: Connection reset by peer
+
+Thread [819] had error: Connection reset by peer
+
+Thread [820] had error: Connection reset by peer
+
+Thread [821] had error: Socket closed
+
+Thread [822] had error: Socket closed
+
+Thread [823] had error: Socket closed
+
+Thread [824] had error: Connection reset by peer
+
+Thread [825] had error: Socket closed
+
+Thread [826] had error: Socket closed
+
+Thread [827] had error: Connection reset by peer
+
+Thread [828] had error: Socket closed
+
+Thread [829] had error: Connection reset by peer
+
+Thread [830] had error: Socket closed
+
+Thread [831] had error: Connection reset by peer
+
+Thread [832] had error: Connection reset by peer
+
+Thread [833] had error: Socket closed
+
+Thread [834] had error: Connection reset by peer
+
+Thread [835] had error: Socket closed
+
+Thread [836] had error: Socket closed
+
+Thread [837] had error: Socket closed
+
+Thread [838] had error: Connection reset by peer
+
+Thread [839] had error: Socket closed
+
+Thread [840] had error: Connection reset by peer
+
+Thread [841] had error: Connection reset by peer
+
+Thread [842] had error: Connection reset by peer
+
+Thread [843] had error: Connection reset by peer
+
+Thread [844] had error: Socket closed
+
+Thread [845] had error: Connection reset by peer
+
+Thread [846] had error: Socket closed
+
+Thread [847] had error: Socket closed
+
+Thread [848] had error: Socket closed
+
+Thread [849] had error: Socket closed
+
+Thread [850] had error: Socket closed
+
+Thread [851] had error: Connection reset by peer
+
+Thread [852] had error: Socket closed
+
+Thread [853] had error: Socket closed
+
+Thread [854] had error: Socket closed
+
+Thread [855] had error: Connection reset by peer
+
+Thread [856] had error: Socket closed
+
+Thread [857] had error: Connection reset by peer
+
+Thread [858] had error: Connection reset by peer
+
+Thread [859] had error: Connection reset by peer
+
+Thread [860] had error: Socket closed
+
+Thread [861] had error: Socket closed
+
+Thread [862] had error: Connection reset by peer
+
+Thread [863] had error: Connection reset by peer
+
+Thread [864] had error: Connection reset by peer
+
+Thread [865] had error: Connection reset by peer
+
+Thread [866] had error: Socket closed
+
+Thread [867] had error: Connection reset by peer
+
+Thread [868] had error: Connection reset by peer
+
+Thread [869] had error: Connection reset by peer
+
+Thread [870] had error: Connection reset by peer
+
+Thread [871] had error: Connection reset by peer
+
+Thread [872] had error: Connection reset by peer
+
+Thread [873] had error: Socket closed
+
+Thread [874] had error: Connection reset by peer
+
+Thread [875] had error: Socket closed
+
+Thread [876] had error: Connection reset by peer
+
+Thread [877] had error: Socket closed
+
+Thread [878] had error: Connection reset by peer
+
+Thread [879] had error: Connection reset by peer
+
+Thread [880] had error: Socket closed
+
+Thread [881] had error: Socket closed
+
+Thread [882] had error: Connection reset by peer
+
+Thread [883] had error: Socket closed
+
+Thread [884] had error: Socket closed
+
+Thread [885] had error: Socket closed
+
+Thread [886] had error: Socket closed
+
+Thread [887] had error: Connection reset by peer
+
+Thread [888] had error: Connection reset by peer
+
+Thread [889] had error: Socket closed
+
+Thread [890] had error: Socket closed
+
+Thread [891] had error: Socket closed
+
+Thread [892] had error: Socket closed
+
+Thread [893] had error: Connection reset by peer
+
+Thread [894] had error: Connection reset by peer
+
+Thread [895] had error: Socket closed
+
+Thread [896] had error: Socket closed
+
+Thread [897] had error: Connection reset by peer
+
+Thread [898] had error: Socket closed
+
+Thread [899] had error: Connection reset by peer
+
+Thread [900] had error: Socket closed
+
+Thread [901] had error: Socket closed
+
+Thread [902] had error: Socket closed
+
+Thread [903] had error: Socket closed
+
+Thread [904] had error: Socket closed
+
+Thread [905] had error: Socket closed
+
+Thread [906] had error: Socket closed
+
+Thread [907] had error: Connection reset by peer
+
+Thread [908] had error: Connection reset by peer
+
+Thread [909] had error: Connection reset by peer
+
+Thread [910] had error: Connection reset by peer
+
+Thread [911] had error: Socket closed
+
+Thread [912] had error: Connection reset by peer
+
+Thread [913] had error: Connection reset by peer
+
+Thread [914] had error: Connection reset by peer
+
+Thread [915] had error: Connection reset by peer
+
+Thread [916] had error: Socket closed
+
+Thread [917] had error: Connection reset by peer
+
+Thread [918] had error: Socket closed
+
+Thread [919] had error: Socket closed
+
+Thread [920] had error: Socket closed
+
+Thread [921] had error: Connection reset by peer
+
+Thread [922] had error: Socket closed
+
+Thread [923] had error: Socket closed
+
+Thread [924] had error: Socket closed
+
+Thread [925] had error: Socket closed
+
+Thread [926] had error: Connection reset by peer
+
+Thread [927] had error: Socket closed
+
+Thread [928] had error: Connection reset by peer
+
+Thread [929] had error: Socket closed
+
+Thread [930] had error: Socket closed
+
+Thread [931] had error: Socket closed
+
+Thread [932] had error: Connection reset by peer
+
+Thread [933] had error: Connection reset by peer
+
+Thread [934] had error: Connection reset by peer
+
+Thread [935] had error: Connection reset by peer
+
+Thread [936] had error: Socket closed
+
+Thread [937] had error: Connection reset by peer
+
+Thread [938] had error: Socket closed
+
+Thread [939] had error: Connection reset by peer
+
+Thread [940] had error: Connection reset by peer
+
+Thread [941] had error: Connection reset by peer
+
+Thread [942] had error: Socket closed
+
+Thread [943] had error: Socket closed
+
+Thread [944] had error: Connection reset by peer
+
+Thread [945] had error: Socket closed
+
+Thread [946] had error: Connection reset by peer
+
+Thread [947] had error: Connection reset by peer
+
+Thread [948] had error: Connection reset by peer
+
+Thread [949] had error: Socket closed
+
+Thread [950] had error: Socket closed
+
+Thread [951] had error: Socket closed
+
+Thread [952] had error: Socket closed
+
+Thread [953] had error: Connection reset by peer
+
+Thread [954] had error: Socket closed
+
+Thread [955] had error: Connection reset by peer
+
+Thread [956] had error: Socket closed
+
+Thread [957] had error: Socket closed
+
+Thread [958] had error: Connection reset by peer
+
+Thread [959] had error: Connection reset by peer
+
+Thread [960] had error: Connection reset by peer
+
+Thread [961] had error: Socket closed
+
+Thread [962] had error: Connection reset by peer
+
+Thread [963] had error: Socket closed
+
+Thread [964] had error: Socket closed
+
+Thread [965] had error: Socket closed
+
+Thread [966] had error: Connection reset by peer
+
+Thread [967] had error: Socket closed
+
+Thread [968] had error: Connection reset by peer
+
+Thread [969] had error: Socket closed
+
+Thread [970] had error: Connection reset by peer
+
+Thread [971] had error: Socket closed
+
+Thread [972] had error: Socket closed
+
+Thread [973] had error: Connection reset by peer
+
+Thread [974] had error: Connection reset by peer
+
+Thread [975] had error: Socket closed
+
+Thread [976] had error: Socket closed
+
+Thread [977] had error: Socket closed
+
+Thread [978] had error: Socket closed
+
+Thread [979] had error: Connection reset by peer
+
+Thread [980] had error: Connection reset by peer
+
+Thread [981] had error: Connection reset by peer
+
+Thread [982] had error: Socket closed
+
+Thread [983] had error: Connection reset by peer
+
+Thread [984] had error: Socket closed
+
+Thread [985] had error: Connection reset by peer
+
+Thread [986] had error: Connection reset by peer
+
+Thread [987] had error: Socket closed
+
+Thread [988] had error: Socket closed
+
+Thread [989] had error: Socket closed
+
+Thread [990] had error: Connection reset by peer
+
+Thread [991] had error: Connection reset by peer
+
+Thread [992] had error: Connection reset by peer
+
+Thread [993] had error: Connection reset by peer
+
+Thread [994] had error: Socket closed
+
+Thread [995] had error: Socket closed
+
+Thread [996] had error: Socket closed
+
+Thread [997] had error: Connection reset by peer
+
+Thread [998] had error: Socket closed
+
+Thread [999] had error: Socket closed
+
+Thread [1000] had error: Connection reset by peer
+
+Thread [1001] had error: Socket closed
+
+Thread [1002] had error: Socket closed
+
+Thread [1003] had error: Socket closed
+
+Thread [1004] had error: Socket closed
+
+Thread [1005] had error: Connection reset by peer
+
+Thread [1006] had error: Connection reset by peer
+
+Thread [1007] had error: Connection reset by peer
+
+Thread [1008] had error: Connection reset by peer
+
+Thread [1009] had error: Socket closed
+
+Thread [1010] had error: Socket closed
+
+Thread [1011] had error: Socket closed
+
+Thread [1012] had error: Socket closed
+
+Thread [1013] had error: Connection reset by peer
+
+Thread [1014] had error: Connection reset by peer
+
+Thread [1015] had error: Socket closed
+
+Thread [1016] had error: Connection reset by peer
+
+Thread [1017] had error: Socket closed
+
+Thread [1018] had error: Socket closed
+
+Thread [1019] had error: Socket closed
+
+Thread [1020] had error: Socket closed
+
+Thread [1021] had error: Socket closed
+
+Thread [1022] had error: Connection reset by peer
+
+Thread [1023] had error: Socket closed
+
+
+Command: 
+perf_analyzer -m resnet50_config_21 -b 1 -u localhost:8001 -i grpc -f resnet50_config_21-results.csv --verbose-csv --concurrency-range 1024 --measurement-mode count_windows --measurement-request-count 550 --collect-metrics --metrics-url http://localhost:8002/metrics --metrics-interval 1000.0
+
+Error: 
+*** Measurement Settings ***
+  Batch size: 1
+  Service Kind: Triton
+  Using "count_windows" mode for stabilization
+  Minimum number of samples in each window: 500
+  Using synchronous calls for inference
+  Stabilizing using average latency
+
+Request concurrency: 1024
+Failed to obtain stable measurement within 10 measurement windows for concurrency 1024. Please try to increase the --measurement-request-count.
+Failed to obtain stable measurement.
+
+Command: 
+perf_analyzer -m resnet50_config_22 -b 1 -u localhost:8001 -i grpc -f resnet50_config_22-results.csv --verbose-csv --concurrency-range 1024 --measurement-mode count_windows --measurement-request-count 550 --collect-metrics --metrics-url http://localhost:8002/metrics --metrics-interval 1000.0
+
+Error: 
+*** Measurement Settings ***
+  Batch size: 1
+  Service Kind: Triton
+  Using "count_windows" mode for stabilization
+  Minimum number of samples in each window: 500
+  Using synchronous calls for inference
+  Stabilizing using average latency
+
+Request concurrency: 1024
+Failed to obtain stable measurement within 10 measurement windows for concurrency 1024. Please try to increase the --measurement-request-count.
+Failed to obtain stable measurement.
+
+Command: 
+perf_analyzer -m resnet50_config_31 -b 1 -u localhost:8001 -i grpc -f resnet50_config_31-results.csv --verbose-csv --concurrency-range 1024 --measurement-mode count_windows --measurement-request-count 100 --collect-metrics --metrics-url http://localhost:8002/metrics --metrics-interval 1000.0
+
+Error: 
+*** Measurement Settings ***
+  Batch size: 1
+  Service Kind: Triton
+  Using "count_windows" mode for stabilization
+  Minimum number of samples in each window: 100
+  Using synchronous calls for inference
+  Stabilizing using average latency
+
+Request concurrency: 1024
+Failed to maintain requested inference load. Worker thread(s) failed to generate concurrent requests.
+terminate called after throwing an instance of 'triton::perfanalyzer::PerfAnalyzerException'
+  what():  Unable to connect to Metrics endpoint http://localhost:8002/metrics
+
+Command: 
+perf_analyzer -m resnet50_config_37 -b 1 -u localhost:8001 -i grpc -f resnet50_config_37-results.csv --verbose-csv --concurrency-range 1024 --measurement-mode count_windows --measurement-request-count 550 --collect-metrics --metrics-url http://localhost:8002/metrics --metrics-interval 1000.0
+
+Error: 
+*** Measurement Settings ***
+  Batch size: 1
+  Service Kind: Triton
+  Using "count_windows" mode for stabilization
+  Minimum number of samples in each window: 500
+  Using synchronous calls for inference
+  Stabilizing using average latency
+
+Request concurrency: 1024
+Failed to obtain stable measurement within 10 measurement windows for concurrency 1024. Please try to increase the --measurement-request-count.
+Failed to obtain stable measurement.
+

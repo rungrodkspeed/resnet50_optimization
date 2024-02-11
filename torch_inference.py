@@ -38,6 +38,16 @@ def inference(model, sample, device):
     
     return classes[int( pred.cpu().item() )], scores[0, pred].cpu().item()
 
+
+def main(args):
+    sample = Image.open(args.sample).convert('RGB')
+    device = torch.device('cuda:0' if torch.cuda.is_available() and args.gpu else 'cpu')
+    model = load_model(resnet50(), args.model_path, device)
+    
+    print('Torch Inferencing.')
+    res, confidence = inference(model, sample, device)
+    print(f'specie : {res} with confidence {confidence * 100} %')
+
 if __name__ == '__main__':
     
     parser = argparse.ArgumentParser("Torch Inference.")
@@ -47,10 +57,4 @@ if __name__ == '__main__':
     args = parser.parse_args()
     
     
-    sample = Image.open(args.sample).convert('RGB')
-    device = torch.device('cuda:0' if torch.cuda.is_available() and args.gpu else 'cpu')
-    model = load_model(resnet50(), args.model_path, device)
-    
-    print('Torch Inferencing.')
-    res, confidence = inference(model, sample, device)
-    print(f'specie : {res} with confidence {confidence * 100} %')
+    main(args)

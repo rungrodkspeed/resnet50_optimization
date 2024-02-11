@@ -3,7 +3,7 @@ import glob
 import numpy as np
 import tensorrt as trt
 
-EPSILON = 1.1102230246251565e-16
+EPSILON = 1.1102230246251565e-16 #depend on your computer.
 
 classes = {0:'daisy', 1:'dandelion', 2:'rose', 3:'sunflower', 4:'tulip'}
 
