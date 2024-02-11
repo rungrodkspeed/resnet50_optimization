@@ -144,5 +144,5 @@ dynamic_batching {
 ```
 
 For deep detail :
-
-<a href="analyzer_result/reports/detailed/resnet50_config_30/detailed_report.pdf" class="image fit"><img src="images/marr_pic.jpg" alt=""></a>
+<image src="analyzer_result/reports/detailed/resnet50_config_30/pdf_to_img/detailed_report-images-1.jpg"/>
+<image src="analyzer_result/reports/detailed/resnet50_config_30/pdf_to_img/detailed_report-images-2.jpg"/>
