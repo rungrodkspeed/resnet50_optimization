@@ -113,7 +113,7 @@ default_model_filename: "resnet50.plan"
 
 Summary about Resnet50 on Triton server.
 
-<a href="analyzer_result/reports/summaries/resnet50/result_summary.pdf" class="image fit"></a>
+<object data="/analyzer_result/reports/summaries/resnet50/result_summary.pdf" type="aplication/pdf"></object>
 
 From model-analyzer the best config.pbtxt is :
 
