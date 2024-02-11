@@ -111,7 +111,7 @@ default_model_filename: "resnet50.plan"
         ```
 ## Model Analyzer
 
-Summary about Resnet50 on Triton server.
+Summary about Resnet50 on Triton server. \
 (For watch more high resolution at /analyzer_result/reports/summaries/resnet50 directory)
 <image src="/analyzer_result/reports/summaries/resnet50/pdf_to_img/result_summary-images-1.jpg"/>
 <image src="/analyzer_result/reports/summaries/resnet50/pdf_to_img/result_summary-images-2.jpg"/>
@@ -143,7 +143,7 @@ dynamic_batching {
 }
 ```
 
-For deep detail :
+For deep detail : \
 (For watch more high resolution at /analyzer_result/reports/detailed/resnet50_config_30 directory)
 <image src="analyzer_result/reports/detailed/resnet50_config_30/pdf_to_img/detailed_report-images-1.jpg"/>
 <image src="analyzer_result/reports/detailed/resnet50_config_30/pdf_to_img/detailed_report-images-2.jpg"/>
