@@ -36,7 +36,7 @@ For detail TensorRT backed Installation : https://docs.nvidia.com/deeplearning/t
 | TensorRT |  51.1 |
 
 |Batch(es) \ Framework | Pytorch (CPU)  | Pytorch (GPU) | onnxruntime (CPU)  | onnxruntime (GPU) | TensorRT |
-| ------------- | ------------- | ------------- | ------------- | ------------- || ------------- |
+| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
 | 1 |   17.94 FPS  | 5.79 FPS  | 55.62 FPS  | not supported for CUDA 12  | 395.39 FPS  |
 | 8 |   16.82 FPS  | 18.18 FPS  | 47.54 FPS  | not supported for CUDA 12    | 1958.92 FPS |
 | 16 |   16.45 FPS  | 72.59 FPS  | 36.69 FPS  | not supported for CUDA 12  | 2154.45 FPS  |
