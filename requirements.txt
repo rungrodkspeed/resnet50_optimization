@@ -1,3 +1,6 @@
 numpy==1.26.2
-pycuda==2023.1
 onnxruntime-gpu==1.16.3
+tensorrt
+pycuda
+opencv-python
+aiofiles

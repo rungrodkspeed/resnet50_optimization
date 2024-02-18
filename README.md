@@ -15,14 +15,20 @@ Install with pip
 ```bash
   pip install -r requirement.txt
 ```
+For detail TensorRT backed Installation : https://docs.nvidia.com/deeplearning/tensorrt/install-guide/index.html
 
 or Install with docker
 
 ```bash
-  docker
+  docker build -t resnet_optim .
+```
+then
+```bash
+  docker run --gpus=1 -it --rm resnet_optim
 ```
 
-For detail TensorRT backed Installation : https://docs.nvidia.com/deeplearning/tensorrt/install-guide/index.html
+**Be careful the image size is 19.5 GiB
+
 ## Optimizations
 
     - smaller size
