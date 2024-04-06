@@ -61,7 +61,7 @@ more efficient about performance by Triton stack.
 
 1. Pull images NGC triton inference server.
     ```
-    nvcr.io/nvidia/tritonserver:23.07-py3
+    nvcr.io/nvidia/tritonserver:23.06-py3
     ```
 
 
