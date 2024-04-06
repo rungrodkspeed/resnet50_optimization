@@ -38,7 +38,7 @@ class TritonPythonModel:
 
             processed_img = list( map (lambda x: self.transforms(x), img) )
 
-            out_tensor_0 = pb_utils.Tensor( "OUTPUT_0", np.asarray( processed_img) )
+            out_tensor_0 = pb_utils.Tensor( "OUTPUT_0", np.asarray( processed_img ) )
 
             inference_response = pb_utils.InferenceResponse(
                 output_tensors=[out_tensor_0]
