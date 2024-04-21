@@ -117,38 +117,38 @@ func ModelInferRequest(client triton.GRPCInferenceServiceClient, rawInput []byte
 
 	// Submit inference request to server
 	modelInferResponse, err := client.ModelInfer(ctx, &modelInferRequest)
-
 	if err != nil {
 		log.Fatalf("Error processing InferRequest: %v", err)
 	}
+
 	return modelInferResponse
 }
 
 func ConnectTritonServer(FLAGS Flags) (triton.GRPCInferenceServiceClient, *grpc.ClientConn) {
 
-		// Create gRPC server connection
-		conn, err := grpc.Dial(FLAGS.URL, grpc.WithTransportCredentials(insecure.NewCredentials()))
+	// Create gRPC server connection
+	conn, err := grpc.Dial(FLAGS.URL, grpc.WithTransportCredentials(insecure.NewCredentials()))
 
-		if err != nil {
-			log.Fatalf("Couldn't connect to endpoint %s: %v", FLAGS.URL, err)
-		}
-	
-		// Create client from gRPC server connection
-		client := triton.NewGRPCInferenceServiceClient(conn)
-	
-		// Check triton is Live
-		serverLiveResponse := ServerLiveRequest(client)
-		fmt.Printf("Triton Health - Live: %v\n", serverLiveResponse.Live)
-	
-		// Check triton is Ready
-		serverReadyResponse := ServerReadyRequest(client)
-		fmt.Printf("Triton Health - Ready: %v\n", serverReadyResponse.Ready)
-	
-		// Try send request Meta data
-		modelMetadataResponse := ModelMetadataRequest(client, FLAGS.ModelName, FLAGS.ModelVersion)
-		fmt.Println(modelMetadataResponse)
+	if err != nil {
+		log.Fatalf("Couldn't connect to endpoint %s: %v", FLAGS.URL, err)
+	}
 
-		return client, conn
+	// Create client from gRPC server connection
+	client := triton.NewGRPCInferenceServiceClient(conn)
+
+	// Check triton is Live
+	serverLiveResponse := ServerLiveRequest(client)
+	fmt.Printf("Triton Health - Live: %v\n", serverLiveResponse.Live)
+
+	// Check triton is Ready
+	serverReadyResponse := ServerReadyRequest(client)
+	fmt.Printf("Triton Health - Ready: %v\n", serverReadyResponse.Ready)
+
+	// Try send request Meta data
+	modelMetadataResponse := ModelMetadataRequest(client, FLAGS.ModelName, FLAGS.ModelVersion)
+	fmt.Println(modelMetadataResponse)
+
+	return client, conn
 }
 
 func PipeClassify(c *fiber.Ctx) error {
