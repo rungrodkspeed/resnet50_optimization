@@ -183,9 +183,9 @@ func PipeClassify(c *fiber.Ctx) error {
 	}
 
 	img, _, err := image.Decode(bytes.NewReader(ImageBytes))
-    if err != nil {
-        return c.Status(500).JSON(fiber.Map{"error": err.Error()})
-    }
+	if err != nil {
+		return c.Status(500).JSON(fiber.Map{"error": err.Error()})
+	}
 
 	// Convert image.Image to RGB Slices
 	inputShape := []int64 {int64(FLAGS.BatchSize), int64(img.Bounds().Dy()), int64(img.Bounds().Dx()), 3}
