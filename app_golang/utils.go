@@ -19,7 +19,7 @@ const (
 	outputSize = 1000
 )
 
-type MaxConfident struct {
+type ResponsesModel struct {
 	Class     string
 	Confident float32
 }
@@ -149,9 +149,9 @@ func readFloat32(fourBytes []byte) float32 {
 }
 
 // Find argmax from logits
-func argMax(logits [][]float32) []MaxConfident {
+func argMax(logits [][]float32) []ResponsesModel {
 
-	var out []MaxConfident
+	var out []ResponsesModel
 
 	classes := map[uint16]string{
 		0: "DAISY",
@@ -175,14 +175,14 @@ func argMax(logits [][]float32) []MaxConfident {
 		if maxIndex > 4 {
 			maxIndex = 5
 		}
-		max := MaxConfident{Class: classes[maxIndex], Confident: maxValue}
+		max := ResponsesModel{Class: classes[maxIndex], Confident: maxValue}
 		out = append(out, max)
 	}
 	return out
 }
 
 // Convert output's raw bytes into float32 data (assumes Little Endian)
-func Postprocess(inferResponse *triton.ModelInferResponse) []MaxConfident {
+func Postprocess(inferResponse *triton.ModelInferResponse) []ResponsesModel {
 
 	var logits [][]float32
 
