@@ -101,19 +101,29 @@ output [
 default_model_filename: "resnet50.plan"
 ```
 
-4. Launch NGC for deploy our model.
+4. Launch Triton Server
     ```
-    docker run --gpus=1 --rm -p8000:8000 -p8001:8001 -p8002:8002 -e CUDA_MODULE_LOADING=LAZY -v/your/path/models:/models nvcr.io/nvidia/tritonserver:23.07-py3 tritonserver --model-repository=/models --log-verbose=1
+    docker run --name=resnet-triton-container --shm-size='1g' -d --gpus=1 --rm -p8000:8000 -p8001:8001 -p8002:8002 resnet-triton
     ```
 
-5. Inference by send requests to Triton server. 
-    - HTTP requests
+5. Launch Client
+    - Python client
         ```
-        python3 /deploy_triton/client.py
+        docker run --name=resnet-client-python-container -d --rm -p 8888:8888 resnet-client-python
         ```
-    - gRPC requests
+    - Golang client
         ```
-        python3 /deploy_triton/grpc_client.py
+        docker run --name=resnet-client-python-container -d --rm -p 8888:8888 resnet-client-golang
+        ```
+
+6. Inference by send requests to Triton server. 
+    - Python client
+        ```
+        python3 /app_python/request.py
+        ```
+    - Golang client
+        ```
+        python3 /app_golang/request.py
         ```
 ## Model Analyzer
 

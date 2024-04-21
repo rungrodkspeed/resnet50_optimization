@@ -12,8 +12,6 @@ RUN pip3 install torch torchvision torchaudio
 COPY requirements.txt /tmp/
 RUN pip3 install -r /tmp/requirements.txt
 
-ENV CUDA_MODULE_LOADING=LAZY
-
 RUN apt-get update && apt-get install ffmpeg libsm6 libxext6  -y
 
 WORKDIR /workspace

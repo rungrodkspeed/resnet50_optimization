@@ -12,9 +12,9 @@ from tritonclient.utils import *
 from fastapi import FastAPI, UploadFile, File
 from fastapi.responses import JSONResponse
 
-load_dotenv()
+load_dotenv(dotenv_path="../.env")
 
-tritonclient = grpcclient.InferenceServerClient(f"{os.environ['TRITON_SERVER_URL']}:{os.environ['TRITON_SERVER_PORT']}")
+tritonclient = grpcclient.InferenceServerClient(f"{os.environ['TRITON_SERVER_URL']}")
 app = FastAPI()
 
 @app.get("/")
@@ -22,10 +22,10 @@ def healthcheck() -> bool:
     return True
 
 @app.post("/classify")
-async def inference(image_file: UploadFile = File(...)):
+async def inference(ImageByte: UploadFile = File(...)):
     
     try:
-        image = Image.open( io.BytesIO(image_file.file.read()) )
+        image = Image.open( io.BytesIO(ImageByte.file.read()) )
         
     except Exception as e:
         
@@ -55,6 +55,8 @@ async def inference(image_file: UploadFile = File(...)):
         
         image_np = np.asarray( image )
         image_np = np.expand_dims(image_np, axis=0)
+        
+        print(image_np.shape)
 
         inputs = [ grpcclient.InferInput("INPUT", image_np.shape, np_to_triton_dtype(image_np.dtype)) ]
         outputs = [ grpcclient.InferRequestedOutput("OUTPUT", class_count=1000) ]
