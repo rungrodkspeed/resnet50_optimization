@@ -35,13 +35,13 @@ then
     - faster
     - more efficient
 
-|Framework \ Size | Size (MiB)  |
+|Framework | Size (MiB)  |
 | ------------- | ------------- |
 | Pytorch |  195  |
 | ONNX |  97.4  |
 | TensorRT |  51.1 |
 
-|Batch(es) \ Framework | Pytorch (CPU)  | Pytorch (GPU) | onnxruntime (CPU)  | onnxruntime (GPU) | TensorRT |
+|Batch(es) | Pytorch (CPU)  | Pytorch (GPU) | onnxruntime (CPU)  | onnxruntime (GPU) | TensorRT |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
 | 1 |   17.94 FPS  | 5.79 FPS  | 55.62 FPS  | not supported for CUDA 12  | 395.39 FPS  |
 | 8 |   16.82 FPS  | 18.18 FPS  | 47.54 FPS  | not supported for CUDA 12    | 1958.92 FPS |
